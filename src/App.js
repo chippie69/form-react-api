@@ -3,10 +3,10 @@ import "./App.css";
 
 function App() {
 
+
+  // const [idCard, setIdCard] = useState("");
+  // const [phoneNum, setPhoneNum] = useState("");
   
-  // const [name, setName] = useState("");
-  // const [email, setEmail] = useState("");
-  // const [mobileNumber, setMobileNumber] = useState("");
   //const [message, setMessage] = useState("");
 
   let handleSubmit = (e) => {
@@ -33,24 +33,19 @@ function App() {
       <form onSubmit={handleSubmit}>
         {/* <input
           type="text"
-          value={name}
-          placeholder="Name"
-          onChange={(e) => setName(e.target.value)}
+          value={idCard}
+          placeholder="หมายเลขบัตรประชาชน"
+          onChange={(e) => setIdCard(e.target.value)}
         />
         <input
           type="text"
-          value={email}
-          placeholder="Email"
-          onChange={(e) => setEmail(e.target.value)}
+          value={phoneNum}
+          placeholder="หมายเลขโทรศัพท์"
+          onChange={(e) => setPhoneNum(e.target.value)}
         />
-        <input
-          type="text"
-          value={mobileNumber}
-          placeholder="Mobile Number"
-          onChange={(e) => setMobileNumber(e.target.value)}
-        /> */}
+         */}
 
-        <button type="submit">Go</button>
+        <button type="submit">ตรวจสอบ</button>
 
         {/* <div className="message">{message ? <p>{message}</p> : null}</div> */}
       </form>
